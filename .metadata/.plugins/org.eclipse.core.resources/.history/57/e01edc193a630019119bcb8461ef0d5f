@@ -1,0 +1,28 @@
+
+public class ex01 {
+	public static void main(String[] args) {
+//		int n = 30;
+//		
+//		if(10 <= n && n <= 19)
+//			System.out.println("10대");
+//		else if(20 <= n && n <= 29)
+//			System.out.println("20대");
+//		else if(30 <= n && n <= 39)
+//			System.out.println("30대");
+//		else if(40 <= n && n <= 49)
+//			System.out.println("40대 이상");
+//		else
+//			System.out.println("계산할 수 없음");
+		
+//		String names[] = {"김남준", "김석진", "민윤기", "정호석", "박지민", "김태형", "전정국"};
+//		for (String s : names) {
+//			System.out.println(s + "!!");
+//		}
+		
+		for(int i = 10 ; i < 15+1 ; i++) {
+			for(int j = 1 ; j < 9+1 ; j++)
+				System.out.println(i + " × " + j + " = " + i*j);
+			System.out.println("");
+		}
+	}
+}
