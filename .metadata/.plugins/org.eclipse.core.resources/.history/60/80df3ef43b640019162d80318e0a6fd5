@@ -1,6 +1,0 @@
-
-public class Ex_2 {
-	public static void main(String[] args) {
-		System.out.println( Math.pow(Math.abs(0-3), 2)+ Math.pow(Math.abs(0-3), 2));
-	}
-}
