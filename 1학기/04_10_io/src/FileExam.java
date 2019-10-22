@@ -1,13 +1,19 @@
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 
 public class FileExam {
 
 	public static void main(String[] args) {
 		try {
-			FileReader file = new FileReader("test.java");
-		} catch (FileNotFoundException fe) {
-			System.out.println("fe.toString() : " + fe.toString());
+			FileReader fr = new FileReader("datar.txt");
+			FileWriter fw = new FileWriter("dataw.txt");
+			int c;
+			while((c = fr.read()) != -1) {
+				fw.write(c);
+			}
+		} catch (Exception e) {
+			System.out.println(e.toString());
 		}
 	}
 

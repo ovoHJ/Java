@@ -10,7 +10,7 @@ public class Echo2Exam {
 			try {
 				i = is.read();
 				if(i == -1) break;
-				System.out.println((char)i);
+				System.out.print((char)i);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
